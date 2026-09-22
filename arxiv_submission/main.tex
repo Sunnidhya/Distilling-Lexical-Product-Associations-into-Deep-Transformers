@@ -60,7 +60,7 @@ In this paper, we present an end-to-end framework that reframes multi-category e
 The primary contributions of this paper are fourfold:
 \begin{enumerate}
   \item \textbf{Principled Distillation Framing:} We formalize the transfer of sparse lexical item topologies into a compact, bidirectional transformer representation through pseudo-label learning, resolving prior circular evaluation pitfalls.
-  \item \textbf{Resolution of Baseline Alignment & Rigorous Evaluation:} We identify and formally rectify an index-misalignment bug present in standard baseline implementations and conduct rigorous evaluation with strict self-exclusion ($-\infty$ masking on self-labels) across five Information Retrieval metrics ($P@k$, $R@k$, $\text{NDCG}@k$, $\text{MRR}@k$, and $\text{MAP}@k$ for $k \in \{1, 3, 5, 10, 20\}$).
+  \item \textbf{Resolution of Baseline Alignment \& Rigorous Evaluation:} We identify and formally rectify an index-misalignment bug present in standard baseline implementations and conduct rigorous evaluation with strict self-exclusion ($-\infty$ masking on self-labels) across five Information Retrieval metrics ($P@k$, $R@k$, $\text{NDCG}@k$, $\text{MRR}@k$, and $\text{MAP}@k$ for $k \in \{1, 3, 5, 10, 20\}$).
   \item \textbf{Qualitative Generalization Benchmarking:} Through a curated test suite of ten diverse natural language query archetypes, we demonstrate empirical evidence of intent recovery and semantic comprehension where keyword matching degenerates.
   \item \textbf{Architectural Scalability Analysis:} We provide a detailed technical analysis of the memory and computational bottlenecks inherent in extreme multi-label classification projection layers ($C \approx 54{,}000$ vs.\ $C > 10^6$) and delineate a concrete roadmap toward Dual-Encoder (Two-Tower) Approximate Nearest Neighbor (ANN) vector search.
 \end{enumerate}
@@ -88,7 +88,7 @@ Let $\mathcal{C} = \{p_1, p_2, \dots, p_N\}$ denote an e-commerce catalog compri
 \end{equation}
 Each product in the catalog is assigned a unique integer identifier $c \in \{0, 1, \dots, C-1\}$, where $C = 53{,}923$ denotes the total number of unique classes retained after preprocessing.
 
-\subsection{Lexical Teacher & Pseudo-Label Construction}
+\subsection{Lexical Teacher \& Pseudo-Label Construction}
 To construct pseudo-labels without expensive human annotation, we establish an unsupervised lexical baseline. For each item $p_i$, we extract its $L_2$-normalized TF-IDF feature vector $\mathbf{t}_i \in \mathbb{R}^{|V|}$ over a vocabulary $|V| = 50{,}000$ using sublinear term-frequency scaling ($\text{tf}_{\text{scaled}} = 1 + \log(\text{tf})$). Pairwise lexical similarity between products $p_i$ and $p_j$ is defined by cosine similarity:
 \begin{equation}
   S_{ij} = \cos(\mathbf{t}_i, \mathbf{t}_j) = \frac{\mathbf{t}_i \cdot \mathbf{t}_j}{\|\mathbf{t}_i\|_2 \|\mathbf{t}_j\|_2}.
@@ -197,7 +197,7 @@ The text normalization pipeline applies the following deterministic operations s
 
 Figure~\ref{fig:category_dist} verifies the uniform category representation, while Figure~\ref{fig:text_len} displays the resulting character length distribution of the normalized product descriptions.
 
-\subsection{Training Hyperparameters & Computational Environment}
+\subsection{Training Hyperparameters \& Computational Environment}
 Model training was conducted using PyTorch and the Hugging Face Transformers library. We compare our chosen DistilBERT backbone against a baseline BERT-base architecture in Table~\ref{tab:model_specs}. DistilBERT achieved comparable convergence in ${\sim}10$ hours on a single NVIDIA T4 GPU ($16\,\text{GB}$ VRAM), versus ${\sim}34$ hours for BERT-base.
 
 \begin{table}[ht]
@@ -414,7 +414,7 @@ While TF-IDF holds an inherent metric advantage on item-to-item evaluation (sinc
   \item \textbf{Failure Mode and Interpretability:} In $Q_5$ (\textit{``fast computational device''}), DistilBERT retrieves antivirus software ($\hat{p} = 0.2727$), while TF-IDF retrieves an esoteric novelty oil (\textit{``Fast Money Oil''}). Crucially, DistilBERT's output probability for this abstract query is very low ($\hat{p} < 0.30$), demonstrating that sigmoid confidence provides a well-calibrated signal to trigger fallback mechanisms in production.
 \end{enumerate}
 
-\section{Architectural Discussion & Scalability Trade-offs}\label{sec:discussion}
+\section{Architectural Discussion \& Scalability Trade-offs}\label{sec:discussion}
 
 While our XMLC framework demonstrates that transformer sequence classifiers can successfully compress and generalize lexical product graphs, scaling this architecture to industrial e-commerce settings ($>10^7$ products) exposes fundamental architectural constraints:
 \begin{enumerate}
