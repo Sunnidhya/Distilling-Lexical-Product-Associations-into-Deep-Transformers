@@ -8,8 +8,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > **Authors:**  
-> **Sunnidhya Roy\*** ([rsunnidhya@gmail.com](mailto:rsunnidhya@gmail.com)) &bull; **Samarpita Bhaumik\*** ([samarpita.bhaumik@iiitb.ac.in](mailto:samarpita.bhaumik@iiitb.ac.in))  
-> *\*Equal contribution. Department of Computer Science & Engineering, International Institute of Information Technology Bangalore (IIIT Bangalore)*
+> **Sunnidhya Roy\*** ([rsunnidhya@gmail.com](mailto:rsunnidhya@gmail.com)) &bull; **Samarpita Bhaumik\*** ([samarpitabhaumik2017@gmail.com](mailto:samarpitabhaumik2017@gmail.com))  
+> *\*Equal contribution. Department of Data Science and Artificial Intelligence, International Institute of Information Technology Bangalore (IIIT Bangalore)*
 
 ---
 
