@@ -1,0 +1,61 @@
+query_id,query,model,category,title,score
+1,I have a birthday party tomorrow. Suggest me some products,DistilBERT,Camera & Photo,Gatherfun Birthday Party Supplies Happy 25th Birthday Banner Backdrop with 10 Pcs Balloons Black Gold Birthday Party Large Background Photo Props for Men and Women 25 Birthday Decorations,0.9801
+1,I have a birthday party tomorrow. Suggest me some products,DistilBERT,Toys & Games,"Crseniny Happy Birthday Cake Topper,Gold Glitter Birthday Sign Cake Decorations，Anniversary Party/Birthday Party Decoration Supplies(Gold)",0.9524
+1,I have a birthday party tomorrow. Suggest me some products,DistilBERT,Toys & Games,Level 9 Game Birthday Cake Topper - Video Game Boy's 9th Birthday Level Up Party Blue Cake Supplies - Game On Winner Gaming Party Decoration,0.9379
+1,I have a birthday party tomorrow. Suggest me some products,TF-IDF,Grocery,Easy-Tomorrow After drink 0.1oz(3g) x 20packs 상쾌환,0.3957
+1,I have a birthday party tomorrow. Suggest me some products,TF-IDF,Digital Music,How Will I Laugh Tomorrow When I Can't Even Smile Today,0.3256
+1,I have a birthday party tomorrow. Suggest me some products,TF-IDF,Office Products,"FALAMON 90th Birthday Decorations for Women or Men, 11x14 Birthday Anniversary Decorations Poster, Birthday Party Supplies Gifts, Back in 1932",0.2878
+2,Want a gas and cooker,DistilBERT,Appliances,WindMax Euro Style 30 in Stainless Steel 5 Burner Built-In Stoves NG LPG Gas Cooktops,0.9775
+2,Want a gas and cooker,DistilBERT,Appliances,"Hotfield 12 Inch Gas Cooktop, Built-in 2 High Efficiency Burners Gas Stovetop Stainless Steel Gas Stove Top LPG/NG Convertible Dual Fuel Gas Hob",0.9768
+2,Want a gas and cooker,DistilBERT,Appliances,30 inch Gas Cooktop Gas Stove 5 Burners Stainless Steel Built-in Gas Hob LPG/NG Dual Fuel Easy to Clean Thermocouple Protection,0.9674
+2,Want a gas and cooker,TF-IDF,Amazon Home,COOKAMP High Pressure Banjo 1-Burner Outdoor Propane Burner Gas Cooker with 0-30 PSI Adjustable Regulator and Steel Braided Hose SA1250,0.3672
+2,Want a gas and cooker,TF-IDF,Health & Personal Care,"Bonison Pressure Cooker Replacement Gaskets Bundle - Set of 3 Silicone Sealing Rings and a Bonus Silicone Inner Pot Lid, For 5 or 6 QT IP Lux Duo Ultra Smart Series or Other Cookers. (5,6 QT)",0.3469
+2,Want a gas and cooker,TF-IDF,Amazon Home,Upgrade S9892 Pressure Cooker Gasket For Mirro Pressure Cooker S-9892 9892 M-0296 M-0436 M-0498 M-0536 M-0596 M-0646 M-1952 Fit ４｜6 ｜ 8 QT Models（white） (black),0.3106
+3,I want a soft pillow,DistilBERT,Amazon Home,"Cottonblue Toddler Pillow with 100% Organic Cotton Pillowcase 14x19, Kids Bedding Pillow for Sleeping, Machine Washable, Boys Pillow and Pillow Cover for Travel, Cot, Bed Set, Blue Dinosaur",0.9958
+3,I want a soft pillow,DistilBERT,Amazon Home,"Pillowflex Premium Polyester Pillow Insert - 12""x18"" Pillow Form — Machine Washable — Lumbar Pillow Insert for Sham - Back, Travel Pillow - Neck Pillow - 1 Decorative Pillow Form",0.9958
+3,I want a soft pillow,DistilBERT,Amazon Home,"unhg Bed Pillows for Sleeping 2 Pack, Hypoallergenic Pillow for Side and Back Sleeper, Down Alternative Cooling Pillow with Soft Premium Plush Fiber Fill, Standard Size (Style1)",0.9957
+3,I want a soft pillow,TF-IDF,Baby,"Baby Toddler Pillow 2 Pack with Pillowcase (13 x 18), Baby Toddler Pillows for Sleeping, Machine Washable Soft Travel Pillow, White and Pink",0.4776
+3,I want a soft pillow,TF-IDF,Amazon Home,"2-Pack Toddler Pillow - Soft Organic Cotton Toddler Pillows for Sleeping - 13X18 Small Pillow for Kids - Kids Pillows for Sleeping - Kids Pillow for Travel, School, Nap, Age 2 to 5 (Cloud)",0.4763
+3,I want a soft pillow,TF-IDF,Baby,"mcyiqihai [4-Piece] 2 Pillows & 2 Pillowcases | Baby Toddler Pillows with Pillowcases | 13"" X 18"" Toddler Pillow Set | 100% Soft Organic Cotton | Zpex Baby Pillow & Pillowset",0.4563
+4,suggest me some handmade products,DistilBERT,Handmade,Kitchen sign-Kitchen decor-personalized wall sign-wooden custom,0.1397
+4,suggest me some handmade products,DistilBERT,Health & Personal Care,"MLMSY Hanging Jewelry Roll Bag Jewelry Organizer with Pocket for Necklace, Earring and Ring (white point)",0.0913
+4,suggest me some handmade products,DistilBERT,Handmade,"PEACHES Sign, Outdoor Sign, Yard Art, Garden Marker, Fruit Tree Sign, Fruit Marker, Plant Label, Summer Fruit Tree, Deciduous Tree Sign",0.0865
+4,suggest me some handmade products,TF-IDF,Grocery,SIMPLY POTATOES MASHED SWEET POTATOES FROZEN FOOD 24 OZ PACK OF 2,0.2436
+4,suggest me some handmade products,TF-IDF,Handmade,"6"" Exhaust Adapter For Glowforge",0.2106
+4,suggest me some handmade products,TF-IDF,Handmade,"Small 14k Yellow Gold Fill Hoops 1 Pair Handmade 8mm, 10mm or 12mm Everyday Earrings",0.1946
+5,I want a fast computational device,DistilBERT,Software,eScan Antivirus for Linux Desktop Web Filtering Real Time Scanning Software easy to use GUI maximum protection | 1 Device 3 Years | Linux antivirus software 2019 | Linux security,0.2727
+5,I want a fast computational device,DistilBERT,Software,Mac Os X Leopard 10.5.1,0.2033
+5,I want a fast computational device,DistilBERT,Software,Panda Security Global Protection 2015 - 3 Devices [Old Version],0.1927
+5,I want a fast computational device,TF-IDF,Health & Personal Care,Fast Money Oil,0.2527
+5,I want a fast computational device,TF-IDF,All Electronics,"Ansbell Magnetic USB C Adapter, 24Pins Type C Connector Support 100W Fast Charge, 10Gb/s Data Transfer and 4K@60Hz Video Output, Compatible for MacBook Pro/Air and More Devices (White)",0.2258
+5,I want a fast computational device,TF-IDF,All Electronics,"Kavalan 60W 5 Port Rapid USB Charging Station Dock & Organizer, Multi-Device Desktop Tablet & Smartphone Fast Charging Charger Hub (Black)",0.2209
+6,I want an acoustic guitar with steel strings,DistilBERT,Musical Instruments,"RockJam Universal Guitar Accessories Super-kit with Hanger, Capo, Electric & Acoustic Strings, Tuner Multi-Tool, Plectrums & Pick Holder (RJACC01)",0.9991
+6,I want an acoustic guitar with steel strings,DistilBERT,Musical Instruments,"Guitar Accessories Kit, Epesiri Guitar Tools Set, 3 in 1 Guitar Capo for Acoustic Ukulele, Guitar Ukulele Strings, Guitar Pick Holder, Guitar Picks for Electric Guitar, Polishing Cloth, Pins Puller",0.9933
+6,I want an acoustic guitar with steel strings,DistilBERT,Musical Instruments,"Karbart 38in Acoustic Guitar Kit for Beginners, Sapele Wood Acoustic Guitar with Case and Guitar Accessories,Guitar Tuner,5 Pcs Guitar Picks,Guitar Strings,Guitar Bag,Guitar Strap",0.9896
+6,I want an acoustic guitar with steel strings,TF-IDF,Musical Instruments,"POGOLAB Guitar Strings, Acoustic Guitar Strings, 6 Strings Set, Hexagonal Carbon Core 75/25 Bronze, Light, 10-47, 10 Packs",0.5729
+6,I want an acoustic guitar with steel strings,TF-IDF,Musical Instruments,"Karbart 38in Acoustic Guitar Kit for Beginners, Sapele Wood Acoustic Guitar with Case and Guitar Accessories,Guitar Tuner,5 Pcs Guitar Picks,Guitar Strings,Guitar Bag,Guitar Strap",0.487
+6,I want an acoustic guitar with steel strings,TF-IDF,Musical Instruments,2014 Martin M130 Silk & Steel,0.438
+7,organic cotton baby clothing for sensitive skin,DistilBERT,Baby,"Organic Cotton Toddler Pillowcase 13x18, Nickel-Free Snap Enclosure, Ivory Beige",0.8659
+7,organic cotton baby clothing for sensitive skin,DistilBERT,Baby,"Reusable Colored Organics Baby Washcloths, Soft Absorbent Organic Cotton Washable Saliva Towel Face Wipes, Newborn Bath Face Towel, Natural Baby Wipes for Sensitive Skin (Multicolor, 10 Pack)",0.8628
+7,organic cotton baby clothing for sensitive skin,DistilBERT,Baby,"Happy Baby Organics Teether, 3 Flavor Variety Pack, 12 Count (Pack of 3)",0.8316
+7,organic cotton baby clothing for sensitive skin,TF-IDF,Baby,"My Blankee Organic Cotton Jersey Knit Crib Sheet -Pink 28""x52""x9"" Drop",0.357
+7,organic cotton baby clothing for sensitive skin,TF-IDF,Baby,100% Organic Cotton Swaddling Cloth - Breathable,0.3321
+7,organic cotton baby clothing for sensitive skin,TF-IDF,Baby,Organic Swaddle Blanket - USA Made 100% Cotton - Oatmeal,0.3314
+8,lightweight running shoes with cushioned soles,DistilBERT,AMAZON FASHION,BODATU Kids Sneakers for Boys Girls Running Shoes Toddler Tennis Sport Shoes Comfortable Lightweight Breathable Athletic Shoes,0.9882
+8,lightweight running shoes with cushioned soles,DistilBERT,AMAZON FASHION,koppu Mens Womens Ultra Lightweight Slip-on Running Walking Shoes Fashion Sneakers Sport Shoes Casual Gym for Unisex Athletic Tennis Non-Slip Shoes,0.985
+8,lightweight running shoes with cushioned soles,DistilBERT,AMAZON FASHION,Daywin Waterproof Shoe Covers Silicone Rain Shoe Covers Rubber Shoes Protectors Cover for Men Women and Kids,0.9828
+8,lightweight running shoes with cushioned soles,TF-IDF,AMAZON FASHION,BODATU Kids Sneakers for Boys Girls Running Shoes Toddler Tennis Sport Shoes Comfortable Lightweight Breathable Athletic Shoes,0.3499
+8,lightweight running shoes with cushioned soles,TF-IDF,AMAZON FASHION,Ruiatoo Women Casual Walking Shoes Lightweight Running Sneakers Ladies Non Slip Sport Tennis Shoes,0.3335
+8,lightweight running shoes with cushioned soles,TF-IDF,Sports & Outdoors,"Sol Coastal Women's Shore Runner Water Shoes (Dolphin Gray, Size 10)",0.3203
+9,natural moisturizer for dry sensitive skin,DistilBERT,All Beauty,Nu Skin Daily Skin Health Packages (Combination to Oily),0.9058
+9,natural moisturizer for dry sensitive skin,DistilBERT,All Beauty,"Dove Fragrance-Free Body Wash, for Dry Skin, 15.8 oz",0.9005
+9,natural moisturizer for dry sensitive skin,DistilBERT,Health & Personal Care,"Medline Remedy Skin Repair Cream, 4 oz Tubes (3 Pack)",0.8573
+9,natural moisturizer for dry sensitive skin,TF-IDF,All Beauty,"COSRX Honey Ceramide Full Moisture Cream, 50ml, Daily Moisturizer for Dry Skin",0.4034
+9,natural moisturizer for dry sensitive skin,TF-IDF,All Beauty,CurlMix Organic Moisturizer for Curly Hair with Avocado and Sweet Almond Oil - For Sensitive Skin - Unscented - 8 fl oz,0.3967
+9,natural moisturizer for dry sensitive skin,TF-IDF,All Beauty,FIT YOUR SKIN 17 fl oz Shampoo for thinning hair - Color Treated Hair Repair | Clarifying Shampoo for Fine Hair | Hydrating Natural Shampoo Hair Shine Scalp Moisturizer | Hair Moisturizer for Dry Hair Damaged,0.3726
+10,noise cancelling headphones for office work,DistilBERT,All Electronics,"Clevo Gaming Headset, PC Headphone with Microphone Stereo Sound for PS4 Xbox One PC Noise Cancelling Over-Ear Headphones with Mic 3.5mm Jack Volume Control LED Light",0.8618
+10,noise cancelling headphones for office work,DistilBERT,All Electronics,"JRD&BS WINL Stereo Gaming Headset for Xbox One,PS4,PS5,PC,Laptop,Mic Headphones,Gaming Headphones with Mic for Computer Headset Mic with Noise Cancelling Headphones with Microphone Headset",0.8383
+10,noise cancelling headphones for office work,DistilBERT,All Electronics,"NJSJ Gaming Headset with Microphone for PC Xbox One PS4 PS5 Noise Cancelling Over Ear Headphones with Stereo Surround Sound, Soft Memory Earmuffs, RGB Light, 3.5mm Audio Jack Gaming Headphones",0.7421
+10,noise cancelling headphones for office work,TF-IDF,Baby,Baby Headphones zoneyee Baby Ear Protection Noise Cancelling for Babies Age 3 Months to 3 Years (Pink),0.5188
+10,noise cancelling headphones for office work,TF-IDF,All Electronics,"DE Wireless Noise Cancelling Headphones Decibel H78 Wireless Over Ear Bluetooth Headphones Diamond Studio Active Noise Head Phones Wireless Headset for Work, Travel (Black)",0.5184
+10,noise cancelling headphones for office work,TF-IDF,Baby,"Friday 7Care Baby Ear Protection Noise Cancelling Headphones for Ages 0-24 Months, Green",0.5027
